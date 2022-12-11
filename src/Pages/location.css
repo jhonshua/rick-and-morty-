@@ -1,0 +1,12 @@
+
+.fondo{
+
+  
+    background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+    
+background-repeat:no-repeat;
+background-position: center;
+background-size:cover;
+
+
+}
