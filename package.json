@@ -2,6 +2,7 @@
   "name": "rick_and_morty",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://jhonshua.github.io/rick-and-morty-",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.2.1",
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
@@ -26,7 +27,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    
+    "predeploy":"npm run build",
+    "deploy": "gh-page -d build"
   },
   "eslintConfig": {
     "extends": [
