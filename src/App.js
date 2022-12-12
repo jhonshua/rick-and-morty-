@@ -26,7 +26,7 @@ function App() {
       
       <Routes>
     
-        <Route path="/rick-and-morty-" element={<Presentacion/>} />
+        <Route path="/rick-and-morty-/" element={<Presentacion/>} />
         <Route path="/" element={<Home />} />
         <Route path="/:id" element={<CardDetails />} />
 
