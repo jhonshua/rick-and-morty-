@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rick-and-morty-/static/css/main.09e9bebd.css",
-    "main.js": "/rick-and-morty-/static/js/main.33965e25.js",
+    "main.js": "/rick-and-morty-/static/js/main.7b4d6726.js",
     "static/js/787.745e99b1.chunk.js": "/rick-and-morty-/static/js/787.745e99b1.chunk.js",
     "static/media/Rick and Morty x Run.mp4": "/rick-and-morty-/static/media/Rick and Morty x Run.11123bad73eb686a5839.mp4",
     "static/media/fondo animado rick and morty.mp4": "/rick-and-morty-/static/media/fondo animado rick and morty.4b8929d0a3f6602d52fb.mp4",
@@ -16,11 +16,11 @@
     "static/media/fa-v4compatibility.woff2": "/rick-and-morty-/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
     "index.html": "/rick-and-morty-/index.html",
     "main.09e9bebd.css.map": "/rick-and-morty-/static/css/main.09e9bebd.css.map",
-    "main.33965e25.js.map": "/rick-and-morty-/static/js/main.33965e25.js.map",
+    "main.7b4d6726.js.map": "/rick-and-morty-/static/js/main.7b4d6726.js.map",
     "787.745e99b1.chunk.js.map": "/rick-and-morty-/static/js/787.745e99b1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.09e9bebd.css",
-    "static/js/main.33965e25.js"
+    "static/js/main.7b4d6726.js"
   ]
 }
