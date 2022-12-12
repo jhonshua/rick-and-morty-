@@ -12,7 +12,7 @@ const Presentacion = () => {
 
  <div className="main">
 
-<video src={VideoBg} autoPlay className="video"  type="video/mp4" loop muted='true'></video>
+<video src={VideoBg} autoPlay="true"  muted="false" className="video"  type="video/mp4" loop></video>
  
   </div> 
 
