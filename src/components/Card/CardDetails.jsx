@@ -70,7 +70,7 @@ const CardDetails = () => {
  </div>
 
     
-    <Footer/>
+   
     </div>
   );
 };

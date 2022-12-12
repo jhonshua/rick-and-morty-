@@ -14,16 +14,19 @@ import Navbar from "./components/Navbar/Navbar";
 import CardDetails from "./components/Card/CardDetails"
 import Episodes from "./Pages/Episode";
 import Location from "./Pages/Location";
+import Presentacion from "./Pages/Presentacion"
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <Router>
-      <div className="App">
+      
         <Navbar />
-      </div>
+      
       <Routes>
+    
+        <Route path="/rick-and-morty-" element={<Presentacion/>} />
         <Route path="/" element={<Home />} />
         <Route path="/:id" element={<CardDetails />} />
 
@@ -32,7 +35,9 @@ function App() {
 
         <Route path="/location" element={<Location />} />
         <Route path="/location/:id" element={<CardDetails />} />
+      
       </Routes>
+      <Footer/>
     </Router>
   );
 }
@@ -82,7 +87,7 @@ const Home = () => {
         pageNumber={pageNumber}
         updatePageNumber={updatePageNumber}
       />
-      <Footer/>
+      
     </div>
   );
 };

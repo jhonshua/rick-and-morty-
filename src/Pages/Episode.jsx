@@ -56,7 +56,7 @@ const Episodes = () => {
       </div>
 
     </div>
-    <Footer/>
+
 
 </div>
 
